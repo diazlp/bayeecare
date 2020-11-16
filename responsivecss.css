@@ -1,0 +1,96 @@
+/* responsive css */
+/* oh god please help my poor soul  */
+@media screen and (max-width: 1800px) {
+
+  * {
+    overflow-x: hidden;
+  }
+
+  .highlights-container {
+      position: relative;
+      top: -120px;
+  }
+
+  svg {
+      position: relative;
+      left: -20px;
+  }
+
+
+  .form-right {
+      float: right;
+      display: inline-block;
+      padding-right: 850px;
+      padding-top: 15px;
+  }
+
+  .fa-envelope {
+      margin-left: 800px;
+  }
+
+  .brands-wrapper {
+    position: relative;
+    top: -130px;
+  }
+
+  .form-right {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    margin-left:380px;
+
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .highlights-container {
+      position: relative;
+      height: 800px;
+      top: -230px;
+  }
+
+  svg {
+      position: relative;
+      left: -15px;
+  }
+
+  .content {
+    width:30%;
+  }
+
+  .form-right {
+      float: right;
+      display: inline-block;
+      padding-right: 850px;
+      padding-top: 15px;
+  }
+
+  .fa-envelope {
+    margin-left: 400px;
+  }
+
+  .brands-wrapper {
+    position: relative;
+    top: -230px;
+  }
+
+  .form-right {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    margin-left:180px;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  header {
+    width: 400px;
+  }
+
+
+
+}
