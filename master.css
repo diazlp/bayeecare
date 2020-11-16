@@ -145,8 +145,19 @@ header {
   cursor: pointer;
 }
 
+.bars {
+  display: none;
+}
+
 /* navigation css ends here */
 /* contents starts here */
+
+.picture-container {
+  background: linear-gradient(to bottom, #80ffff 0%, #b3ffff 100%);
+  padding-top: 80px;
+  height: 650px;
+  text-align: center;
+}
 
 .banner-product {
   position: relative;
@@ -154,12 +165,6 @@ header {
   opacity: 0.87;
 }
 
-.picture-container {
-  background: linear-gradient(to bottom, #80ffff 0%, #b3ffff 100%);
-  padding: 80px 0 0px 0;
-  height: 650px;
-  text-align: center;
-}
 
 #arrow {
   font-size: 25px;

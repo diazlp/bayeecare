@@ -1,5 +1,95 @@
 /* responsive css */
 /* oh god please help my poor soul  */
+/* the project wasn't done, but I am done lol */
+/* didn't think so much about responsive css earlier
+so now I am struggling to make the whole things work*/
+/* it was pain in the a*s tbh */
+/* god damn it bye */
+/* I ain't gonna write 400 lines of code only to make it responsive */
+
+@media screen and (max-width: 480px) {
+
+  * {
+    width: 100%;
+  }
+
+  /* erased figure */
+
+  .sub-form {
+    display: none;
+  }
+
+  .main-search {
+    display: none;
+  }
+
+  .login-text {
+    display: none;
+  }
+
+  .fa-chevron-up {
+    font-size: 60px;
+    color: black;
+    background-color: cyan;
+    opacity: 0.2;
+  }
+
+  .fa-chevron-up:hover {
+    opacity: 0.2;
+  }
+
+  .nav-container li{
+    display: none;
+  }
+
+  .banner-product {
+    display: none;
+  }
+
+  /* recolor, resize and repositioning */
+
+  .main-name {
+    text-align: center;
+
+  }
+
+  .main-name h1 {
+    font-size: 27px;
+    margin-top: 5px;
+  }
+
+  .main-name p {
+    font-size: 13px;
+  }
+
+  .fa-search {
+    text-align: center;
+    display : inline-flex;
+  }
+
+  .fa-shopping-cart {
+    display: inline-flex;
+  }
+
+  .nav-container {
+    /* position: fixed; */
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .bars {
+    max-width: 50px;
+    font-size: 25px;
+    display: inline-flex;
+  }
+
+  .picture-container {
+    padding-top: 30px;
+    position: relative;
+  }
+
+}
+
 @media screen and (max-width: 1800px) {
 
   * {
@@ -83,14 +173,4 @@
     margin-left:180px;
 
   }
-}
-
-@media screen and (max-width: 400px) {
-
-  header {
-    width: 400px;
-  }
-
-
-
 }
