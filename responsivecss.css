@@ -1,0 +1,211 @@
+/* responsive css */
+/* 820-100px responsive */
+
+@media screen and (max-width: 1200px) {
+
+  header {
+    padding: 0 30px;
+  }
+
+  .product-wrapper {
+    height: 450px;
+  }
+
+  .banner-product {
+    max-width: 500px;
+  }
+
+  .content {
+      width: 50%;
+      display: block;
+  }
+
+   .about-sec p {
+     font-size: 3.25vh;
+   }
+
+   .about-icon {
+     font-size: 15vh;
+   }
+
+   section .address-left {
+     margin-left: 30px;
+   }
+
+   section .address-left h2 {
+     font-size: 1.5em;
+   }
+
+   section .address-left p {
+     font-size: 1.3em;
+   }
+
+   section .form-right {
+     margin-right: 40px;
+   }
+
+   .fa-envelope {
+     margin-left: 150px;
+   }
+
+}
+
+/* 500-819 px responsive */
+
+@media screen and (max-width: 819px) {
+
+  header {
+    padding: 0 10px;
+  }
+
+  header .main-name h1 {
+    font-size: 1.5em;
+  }
+
+  header .main-name p {
+    font-size: 0.9em;
+  }
+
+  header input {
+    display: none;
+  }
+
+  header .searchbox a{
+    font-size: 1.5em;
+  }
+
+  header .main-login a{
+    font-size: 0.9em;
+  }
+
+  .nav-container li {
+    font-size: 0.8em;
+  }
+
+  .banner-product {
+    max-width: 400px;
+  }
+
+  .highlights-container {
+    height: 1200px;
+  }
+
+
+  .highlights-container h1 {
+   font-size: 1.5em;
+  }
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+  header {
+    height: 120px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  header .main-login a{
+    display: none;
+  }
+
+  header .main-name {
+    float: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+
+  header .main-name h1 {
+    font-size: 1.6em;
+    text-align: center;
+  }
+
+  header .main-name p {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  header .searchbox a{
+    margin: 15px;
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  .nav-container {
+    height: 180px;
+  }
+
+  .nav-container ul li a {
+    display: none;
+  }
+
+  .nav-container ul li span {
+    display: none;
+  }
+
+  .banner-product {
+    max-width: 350px;
+  }
+
+  .highlights-container {
+    height: 1100px;
+  }
+
+  .about-sec p {
+    font-size: 3vh;
+  }
+
+  .about-icon {
+    font-size: 12vh;
+  }
+
+  section .address-left {
+    display: none;
+  }
+
+  .fa-map-marker-alt {
+    visibility: hidden;
+  }
+
+  section {
+    background: #ff99cc;
+  }
+
+  section .form-right {
+    margin-left: 50px;
+  }
+
+  .fa-envelope {
+    margin-left: 200px;
+    opacity: 0.1;
+  }
+
+  .fa-bars {
+    visibility: visible;
+    font-size: 2.1em;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    margin: 0 80px;
+    cursor: pointer;
+  }
+
+  .fa-bars:hover {
+    color: red;
+  }
+
+
+  .fa-bars:active {
+    opacity: 0.5;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.7em;
+  }
+
+}
