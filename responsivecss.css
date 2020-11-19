@@ -1,7 +1,7 @@
 /* responsive css */
 /* 820-100px responsive */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1100px) {
 
   header {
     padding: 0 30px;
@@ -15,9 +15,16 @@
     max-width: 500px;
   }
 
-  .content {
-      width: 50%;
-      display: block;
+  svg {
+    border: 1px solid black;
+  }
+
+  .highlights-contents li {
+
+  }
+
+  .highlights-container {
+    height: 700px;
   }
 
    .about-sec p {
@@ -52,7 +59,7 @@
 
 /* 500-819 px responsive */
 
-@media screen and (max-width: 819px) {
+@media screen and (max-width: 800px) {
 
   header {
     padding: 0 10px;
@@ -84,10 +91,6 @@
 
   .banner-product {
     max-width: 400px;
-  }
-
-  .highlights-container {
-    height: 1200px;
   }
 
 
@@ -151,10 +154,6 @@
     max-width: 350px;
   }
 
-  .highlights-container {
-    height: 1100px;
-  }
-
   .about-sec p {
     font-size: 3vh;
   }
@@ -206,6 +205,14 @@
   footer {
     text-align: center;
     font-size: 0.7em;
+  }
+
+}
+
+@media screen and (max-width:540px) {
+
+  .highlights-container {
+    height: 1100px;
   }
 
 }

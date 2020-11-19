@@ -223,12 +223,11 @@ header .main-login a {
 .highlights-contents li {
   display: inline-block;
   width: 20%;
+  min-width: 270px;
+
 }
 
 .content {
-  margin-right: 5px;
-  min-width: 400px;
-  width: 100%;
   cursor: pointer;
   transition: 1s;
 }
