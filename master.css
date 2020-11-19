@@ -6,6 +6,7 @@
   padding: 0;
   list-style: none;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 ::placeholder {
@@ -17,15 +18,12 @@ input[type="text"] {
   width: 200px;
 }
 
-a {
-  text-decoration: none;
-}
-
 /* header css starts here */
 
 header {
   width: 100%;
   position: fixed;
+  display: flex;
   top: 0;
   height: 100px;
   opacity: 0.9;
@@ -316,6 +314,7 @@ svg {
 
 .sub-form {
   height: 300px;
+  display: flex;
   background: linear-gradient(to right, #33ccff 25%, #ff99cc 45%);
 }
 
@@ -399,7 +398,7 @@ svg {
   position: absolute;
   padding-top: 20px;
   font-size: 250px;
-  margin-left: 1150px;
+  margin: auto;
 }
 
 /* contact form css ends here */
