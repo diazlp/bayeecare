@@ -3,61 +3,62 @@
   <head>
     <meta charset="utf-8">
     <title>BayeeCare</title>
-    <meta name="viewport" content=" initial-scale=1.0,maximum-scale=1,user-scallable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="master.css" type="text/css">
 	  <link rel="stylesheet" href="responsivecss.css" type="text/css">
     <script src="https://kit.fontawesome.com/533b9c4f79.js"></script>
-    <script src="small-script.js" type="text/javascript"></script>
+    <script src="dizzyjava.js" type="text/javascript"></script>
 
     </script>
   </head>
 
   <body>
     <header>
+      <div id="container">
         <div class="main-name">
           <h1>BayeeCare</h1>
           <p>Because We Care About Your Babies</p>
         </div>
 
         <div class="searchbox">
-          <input name="searchName" maxlength="15px" size="45" autocomplete="off" placeholder="Search...">
+          <input class="main-search" name="searchName" autocomplete="off" placeholder="Search...">
           <a href="#"><i class="fas fa-search" onclick="#"></i></a>
         </div>
 
-        <ul class="main-login">
-          <li><a href="#" class="login-text">Log in</a><li>
-          <li><a href="#" class="btn search"><i class="fas fa-shopping-cart"></i></a></li>
-        </ul>
+        <div class="main-login">
+          <a href="#" class="login-text">Log in</a>
+          <a href="#" class="btn search"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
     </header>
 
     <div id="categoryNav" class="category-nav">
-      <a class="close-nav" onmouseout="closeNav()" ><i class="fas fa-times"></i> </a>
-      <li><a href="#">Skincare</a></li>
-      <li><a href="#">Haircare</a></li>
-      <li><a href="#">Bath & Body</a></li>
-      <li><a href="#">Fragrance</a></li>
-      <li><a href="#">Family Care</a></li>
-      <li><a href="#">Baby Care</a></li>
-      <li><a href="#">Gift Set</a></li>
+      <a class="close-nav" onclick="closeNav()"><i class="fas fa-times"></i> </a>
+      <li><a href="#" class="category-link">SKINCARE</a></li>
+      <li><a href="#" class="category-link">HAIRCARE</a></li>
+      <li><a href="#" class="category-link">BATH & BODY</a></li>
+      <li><a href="#" class="category-link">FRAGRANCE</a></li>
+      <li><a href="#" class="category-link">FAMILY CARE</a></li>
+      <li><a href="#" class="category-link">BABY CARE</a></li>
+      <li><a href="#" class="category-link">GIFT SET</a></li>
     </div>
 
     <div class="nav-container">
+      <a href="#" class="bars"><span class="fas fa-bars"></span></a>
         <ul>
-          <li><a href="#" class="nav1 category-side" onmouseover="openCategory()">Categories</a></li>
-          <li><a class="nav1 nannies" href="nannies.html" onmouseover="closeNav()">Nannies</a><sup><span style="font-size:10px;color: red;" >new</span></sup></li>
+          <li><span class="nav1 category-side" onmouseover="openCategory()">Categories</span></li>
+          <li ><a class="nav1 nannies" href="nannies.html" onmouseover="closeNav()">Nannies</a><sup><span style="font-size:10px;color: red;" >new</span></sup></li>
           <li><a class="nav1 about" href="#about-link">About</a></li>
           <li><a class="nav1 contact" href="#contact-us">Contact</a></li>
-          <li><i class="fas fa-bars"></i></li>
+          <li></li>
         </ul>
     </div>
-
- <!-- header stops here -->
 
     <div class="product-wrapper">
       <div class="picture-container">
         <div class="arrow-button">
           <button id="arrow" class="fas fa-chevron-left" onclick="slidePrev()"></button>
-          <img id="slider" class="banner-product" src="image-src/img1.jpg" alt="products">
+          <img id="slider" class="banner-product" src="https://www.oeteo.co/wp/wp-content/uploads/2020/11/11.11SALE_Website-Banner.jpg" alt="products">
           <button id="arrow" class="fas fa-chevron-right" onclick="slideNext()"></button>
         </div>
       </div>
@@ -67,42 +68,45 @@
       <div class="highlights-container">
         <h1>HIGHLIGHTS OF THE MONTH</h1>
           <div class="highlights-contents">
+              <div class="highlights-content">
                 <li class="content first">
-                  <svg height="200" width="400">
-                    <ellipse cx="130" cy="100" rx="110" ry="80"
+                  <svg height="200" width="500">
+                    <ellipse cx="200" cy="100" rx="110" ry="80"
                       style="fill:#e6ccff;stroke:#ffcc99;stroke-width:2" />
                       <p>BRANDS </br> WE LOVE</p>
                   </svg>
                 </li>
                 <li class="content second">
                   <svg height="200" width="500">
-                    <ellipse cx="130" cy="100" rx="110" ry="80"
+                    <ellipse cx="200" cy="100" rx="110" ry="80"
                       style="fill:#ffe6cc;stroke:#bf80ff;stroke-width:2" />
-                      <p>ALL-NATURAL </br> CARE</p>
+                      <p>ALL - NATURAL </br> CARE</p>
                   </svg>
                 </li>
                 <li class="content third">
                   <svg height="200" width="500">
-                    <ellipse cx="130" cy="100" rx="110" ry="80"
+                    <ellipse cx="200" cy="100" rx="110" ry="80"
                       style="fill:#b366ff;stroke:#ffb3b3;stroke-width:2" />
                       <p>BUNDLE </br> DEALS</p>
                   </svg>
                 </li>
                 <li class="content fourth">
                   <svg height="200" width="500">
-                    <ellipse cx="130" cy="100" rx="110" ry="80"
+                    <ellipse cx="200" cy="100" rx="110" ry="80"
                       style="fill:#ffbf80;stroke:#ffd9b3;stroke-width:3" />
                     <p>GIFTS FOR </br> NEWBORN</p>
                   </svg>
                 </li>
+              </div>
           </div>
       </div>
+
       <div class="brands-wrapper">
         <!-- this is optional for brand showcase -->
         <a href="#" class="fas fa-chevron-up"></a>
       </div>
 
-      <div class="about-sec" id="about-link">
+      <div class="about" id="about-link">
         <h1>About Us</h1>
         <p>BayeeCare has a mission to provide the best care for babies on the national scale level.</p>
         <p>We strive for excellence. We are just one click away! Parents could have easily buckle up, have a </br> trip
@@ -114,19 +118,20 @@
         </ul>
       </div>
 
-    <section id="contact-us">
+      <div class="sub-form">
           <a class="fas fa-map-marker-alt" href="#address"></a>
-            <div class="address-left">
+          <div class="address-container">
+            <div id="address"class="address-left">
               <h2><span class="fas fa-map-marked-alt"></span>OFFICE ADDRESS :</h2>
               <p><b>The Office Building</b></br>
                   Londoner WEG 25</br>
                   87953 Posemuckel</br>
                   Tel 0049 741 563 6219</p>
             </div>
+          </div>
 
 
-          <div class="form-right">
-            <i class="fas fa-envelope"></i>
+          <div id="contact-us" class="form-right">
             <h2>CONTACT US</h2>
             <form action="#" method="post">
               <p>Email Address :</p>
@@ -138,8 +143,8 @@
               <input class="submit" type="submit" name="submitEmail" value="Subscribe & Send E-mail">
             </form>
           </div>
-
-    </section>
+          <i class="fas fa-envelope"></i>
+      </div>
 
       <div class="social-media">
         <ul>
