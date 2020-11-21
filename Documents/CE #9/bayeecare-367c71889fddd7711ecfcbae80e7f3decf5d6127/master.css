@@ -1,0 +1,494 @@
+
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+
+
+input[type="text"] {
+  width: 200px;
+}
+
+/* header css starts here */
+
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  align-items: center;
+  height: 100px;
+  opacity: 0.9;
+  background-color: black;
+  justify-content: space-between;
+  z-index: 10;
+  padding: 10px 80px;
+}
+
+header .main-name {
+  background: linear-gradient(to right, #33ccff 0%, #ccffff 100%);
+  float: left;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+header .main-name h1 {
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header .searchbox {
+  position: relative;
+  display: flex;
+}
+
+header .searchbox a {
+  color: white;
+  margin: 0 5px;
+  transition: .5s;
+}
+
+header .searchbox a:hover {
+  color: black;
+  background-color: white;
+  padding: 2px;
+  border-radius: 50%;
+  outline: none;
+}
+
+header input {
+  display: flex;
+}
+
+
+header .main-login {
+  position: relative;
+  display: flex;
+  }
+
+header .main-login li {
+  margin-right: 10px;
+}
+
+
+header .main-login a {
+    color: white;
+}
+/* header css ends here */
+/* navigation css starts here */
+
+.close-nav {
+  float: right;
+  color: red;
+  padding: 5px;
+  margin-right: 3px;
+}
+
+.close-nav:hover {
+  color: #99ffff;
+}
+
+.category-nav {
+  background-color: #fff;
+  height: 225px;
+  width: 0;
+  position: absolute;
+  top: 163px;
+  left: 60px;
+  overflow: hidden;
+  transition: 0.1s;
+  z-index: 7;
+}
+
+.category-nav li {
+  font-size: 14px;
+  list-style: none;
+  padding: 6px 6px 10px 30px;
+}
+
+.category-nav li a {
+  color: #000;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+.category-nav li a:hover {
+  color:  #99ffff;
+  opacity: 0.8;
+}
+
+.nav-container {
+  padding:  120px 0 20px 60px;
+  border-bottom: 1px solid #666666;
+}
+
+.nav-container li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.nav-container a {
+  color:black;
+  text-decoration: none;
+}
+
+.nav1 {
+  padding: 15px 0;
+}
+
+.nav1:hover {
+  color: #009999;
+  cursor: pointer;
+}
+
+.fa-bars {
+  visibility: hidden;
+}
+
+/* navigation css ends here */
+/* contents starts here */
+
+.product-wrapper {
+  background: linear-gradient(to bottom, #80ffff 0%, #b3ffff 100%);
+  padding: 80px;
+  text-align: center;
+  height: 500px;
+  position: relative;
+  z-index: 5;
+}
+
+.picture-container {
+  text-align: center;
+}
+
+.banner-product {
+  max-width: 700px;
+  opacity: 0.87;
+}
+
+.arrow-button {
+  position: relative;
+  display: inline-flex;
+}
+
+#arrow {
+  font-size: 25px;
+  color: #4d4dff;
+  background-color: #99ffff;
+  padding: 8px;
+  border-radius: 50%;
+  opacity: 0.6;
+  border-style: none;
+  outline: none;
+}
+
+#arrow:hover {
+  color: #33ffff;
+}
+
+/* contents ends here */
+/* highlights starts here */
+
+.highlights-container {
+  background: linear-gradient(to bottom, #b3ffff 0%, #ccffff 100%);
+  height: 550px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  z-index:5;
+}
+
+.highlights-container h1 {
+  color: #9999ff;
+  text-align: center;
+  letter-spacing: 5px;
+  padding-bottom: 50px;
+}
+
+.highlights-contents li {
+  display: inline-block;
+  width: 20%;
+  min-width: 270px;
+
+}
+
+.content {
+  cursor: pointer;
+  transition: 1s;
+}
+
+.content:hover {
+  border-bottom: 2px solid #8080ff;
+  box-shadow: 0 5px #8080ff;
+}
+
+.content p {
+  font-family: "American Typewriter", serif;
+  font-style: oblique;
+  position: relative;
+  top: -130px;
+  font-size: 23px;
+  max-width: 400px;
+  align-items:  center;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.first p {
+  color: #ff661a;
+}
+
+.second p {
+  color: #bf80ff;
+}
+
+.third p {
+  color: #fff;
+}
+
+.fourth p {
+  color: #fff;
+}
+
+svg {
+  width: 100%;
+  position: relative;
+}
+
+/* highlights ends here */
+/* brands catalog starts here */
+
+.fa-chevron-up {
+ width:70px;
+ height:70px;
+ border-radius:50%;
+ background-color:lightgreen;
+ position:fixed;
+ right: 4%;
+ bottom: 3%;
+ color:white;
+ font-size: 60px;
+ text-align: center;
+ opacity: 0.6;
+ z-index: 3;
+}
+
+.fa-chevron-up:hover {
+  opacity: 1;
+}
+
+
+.brands-wrapper {
+  height: 200px;
+  background: linear-gradient(to bottom, #ccffff 0%, #ffffff 100%);
+  z-index: 5;
+}
+
+/* brands catalog ends here */
+/* about section starts here */
+
+.about-sec {
+  padding-top: 70px;
+  height: 600px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.about-sec h1 {
+  padding-bottom: 50px;
+}
+
+.about-sec li{
+  list-style: none;
+  display: inline-block;
+  padding-top: 80px;
+  width: 25%;
+}
+
+.about-sec p {
+  font-size: 25px;
+}
+
+.about-icon {
+  color: #80ffff;
+  font-size: 120px;
+}
+
+/* about section ends here */
+/* address css starts here */
+
+section {
+     display: flex;
+     position: relative;
+     width: 100%;
+     transition: 0.5s;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     background: linear-gradient(to right, #33ccff 25%, #ff99cc 45%);
+     height: 300px;
+     z-index: 5;
+}
+
+ section .address-left {
+  float: left;
+  position: relative;
+  margin-left: 70px;
+}
+
+section .address-left h2 {
+  font-size: 28px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+section .address-left p {
+  font-size: 22px;
+  margin-left: 50px;
+  text-align: justify;
+}
+
+.fa-map-marked-alt {
+  /* the small one */
+  padding-right: 10px;
+}
+
+.fa-map-marker-alt {
+  /* the big one */
+  display: flex;
+  position: absolute;
+  color: #b366ff;
+  font-size: 250px;
+  opacity: 0.3;
+  margin-left: 120px;
+}
+
+/* address css ends here */
+/* contact form css starts here */
+
+section .form-right {
+  float: right;
+  position: relative;
+  display: inline;
+  margin-right: 200px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+section .form-right h2{
+  letter-spacing: 1px;
+  padding-bottom: 7px;
+}
+
+section .form-right p {
+  padding-bottom: 3px;
+}
+
+section .form {
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border-color: beige;
+}
+
+section .submit {
+  letter-spacing: .5px;
+  opacity: 0.7;
+  padding: 10px;
+  background-color: #80ffff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius:4px;
+  box-shadow: 0 3.5px dimgrey;
+}
+
+.submit:active {
+  position: relative;
+  top: 3.5px;
+  box-shadow: none;
+}
+
+section .submit:hover {
+  opacity: 1;
+}
+
+.fa-envelope {
+  color: #b366ff;
+  opacity: 0.2;
+  display: flex;
+  position: absolute;
+  margin-left: 300px;
+  font-size: 250px;
+}
+
+/* contact form css ends here */
+/* social media starts here */
+
+.fab {
+  color: #666666;
+  font-size: 30px;
+  width: 10%;
+  cursor: pointer;
+}
+
+.social-media {
+  text-align: center;
+  height: 80px;
+  padding: 25px;
+  border-bottom: 1px solid #eee;
+}
+
+.social-media li{
+  display: inline;
+  width: 100%;
+}
+
+/* social media ends here */
+/* footer starts here */
+
+footer {
+  position: relative;
+  display: flex;
+  height: 60px;
+  border-bottom: 1px solid #eee;
+
+}
+
+@keyframes frm{
+    from{background:#fff;}
+    to{background: linear-gradient(to right, #33ccff 0%, #ffffff 40%);}
+}
+
+footer:hover {
+  background: linear-gradient(to right, #33ccff 0%, #ffffff 40%);
+  animation: frm 1s linear 500ms normal infinite;
+}
+
+.footer-ltd {
+  display: inline-flex;
+  float: right;
+  margin: 0 50px;
+  padding-top: 20px;
+  color: #666666;
+}
+
+.footer-ltd p {
+  display: inline;
+  padding: 0 5px;
+}
+/* footer ends here */
