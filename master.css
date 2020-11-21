@@ -1,4 +1,3 @@
-
 * {
   font-family: Helvetica, sans-serif;
   margin: 0;
@@ -13,13 +12,11 @@
   opacity: 0.5;
 }
 
-
 input[type="text"] {
   width: 200px;
 }
 
 /* header css starts here */
-
 header {
   width: 100%;
   position: fixed;
@@ -74,23 +71,21 @@ header input {
   display: flex;
 }
 
-
 header .main-login {
   position: relative;
   display: flex;
-  }
+}
 
 header .main-login li {
   margin-right: 10px;
 }
 
-
 header .main-login a {
-    color: white;
+  color: white;
 }
+
 /* header css ends here */
 /* navigation css starts here */
-
 .close-nav {
   float: right;
   color: red;
@@ -127,12 +122,12 @@ header .main-login a {
 }
 
 .category-nav li a:hover {
-  color:  #99ffff;
+  color: #99ffff;
   opacity: 0.8;
 }
 
 .nav-container {
-  padding:  120px 0 20px 60px;
+  padding: 120px 0 20px 60px;
   border-bottom: 1px solid #666666;
 }
 
@@ -142,7 +137,7 @@ header .main-login a {
 }
 
 .nav-container a {
-  color:black;
+  color: black;
   text-decoration: none;
 }
 
@@ -161,7 +156,6 @@ header .main-login a {
 
 /* navigation css ends here */
 /* contents starts here */
-
 .product-wrapper {
   background: linear-gradient(to bottom, #80ffff 0%, #b3ffff 100%);
   padding: 80px;
@@ -202,7 +196,6 @@ header .main-login a {
 
 /* contents ends here */
 /* highlights starts here */
-
 .highlights-container {
   background: linear-gradient(to bottom, #b3ffff 0%, #ccffff 100%);
   height: 550px;
@@ -210,7 +203,7 @@ header .main-login a {
   align-items: center;
   text-align: center;
   padding-top: 80px;
-  z-index:5;
+  z-index: 5;
 }
 
 .highlights-container h1 {
@@ -224,7 +217,6 @@ header .main-login a {
   display: inline-block;
   width: 20%;
   min-width: 270px;
-
 }
 
 .content {
@@ -244,7 +236,7 @@ header .main-login a {
   top: -130px;
   font-size: 23px;
   max-width: 400px;
-  align-items:  center;
+  align-items: center;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -261,6 +253,7 @@ header .main-login a {
   color: #fff;
 }
 
+
 .fourth p {
   color: #fff;
 }
@@ -272,26 +265,24 @@ svg {
 
 /* highlights ends here */
 /* brands catalog starts here */
-
 .fa-chevron-up {
- width:70px;
- height:70px;
- border-radius:50%;
- background-color:lightgreen;
- position:fixed;
- right: 4%;
- bottom: 3%;
- color:white;
- font-size: 60px;
- text-align: center;
- opacity: 0.6;
- z-index: 3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  position: fixed;
+  right: 4%;
+  bottom: 3%;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  opacity: 0.6;
+  z-index: 3;
 }
 
 .fa-chevron-up:hover {
   opacity: 1;
 }
-
 
 .brands-wrapper {
   height: 200px;
@@ -301,7 +292,6 @@ svg {
 
 /* brands catalog ends here */
 /* about section starts here */
-
 .about-sec {
   padding-top: 70px;
   height: 600px;
@@ -313,7 +303,7 @@ svg {
   padding-bottom: 50px;
 }
 
-.about-sec li{
+.about-sec li {
   list-style: none;
   display: inline-block;
   padding-top: 80px;
@@ -331,21 +321,20 @@ svg {
 
 /* about section ends here */
 /* address css starts here */
-
 section {
-     display: flex;
-     position: relative;
-     width: 100%;
-     transition: 0.5s;
-     justify-content: space-between;
-     align-items: center;
-     text-align: center;
-     background: linear-gradient(to right, #33ccff 25%, #ff99cc 45%);
-     height: 300px;
-     z-index: 5;
+  display: flex;
+  position: relative;
+  width: 100%;
+  transition: 0.5s;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #33ccff 25%, #ff99cc 45%);
+  height: 300px;
+  z-index: 5;
 }
 
- section .address-left {
+section .address-left {
   float: left;
   position: relative;
   margin-left: 70px;
@@ -380,7 +369,6 @@ section .address-left p {
 
 /* address css ends here */
 /* contact form css starts here */
-
 section .form-right {
   float: right;
   position: relative;
@@ -390,7 +378,7 @@ section .form-right {
   text-align: left;
 }
 
-section .form-right h2{
+section .form-right h2 {
   letter-spacing: 1px;
   padding-bottom: 7px;
 }
@@ -428,7 +416,6 @@ section .submit:hover {
 
 /* contact form css ends here */
 /* social media starts here */
-
 .fab {
   color: #666666;
   font-size: 30px;
@@ -443,25 +430,28 @@ section .submit:hover {
   border-bottom: 1px solid #eee;
 }
 
-.social-media li{
+.social-media li {
   display: inline;
   width: 100%;
 }
 
 /* social media ends here */
 /* footer starts here */
-
 footer {
   position: relative;
   display: flex;
   height: 60px;
   border-bottom: 1px solid #eee;
-
 }
 
-@keyframes frm{
-    from{background:#fff;}
-    to{background: linear-gradient(to right, #33ccff 0%, #ffffff 40%);}
+@keyframes frm {
+  from {
+    background: #fff;
+  }
+
+  to {
+    background: linear-gradient(to right, #33ccff 0%, #ffffff 40%);
+  }
 }
 
 footer:hover {
@@ -481,4 +471,5 @@ footer:hover {
   display: inline;
   padding: 0 5px;
 }
+
 /* footer ends here */
